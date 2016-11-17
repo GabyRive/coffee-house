@@ -1,1 +1,69 @@
-<h1>Hello world</h1>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" title="no title">
+  <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+  <title>Coffee House</title>
+</head>
+
+<body>
+  <!-- Uses a header that contracts as the page scrolls down. -->
+
+  <div class="demo-layout-waterfall mdl-layout mdl-js-layout">
+    <header class="mdl-layout__header mdl-layout__header--waterfall">
+      <!-- Top row, always visible -->
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">Coffee House</span>
+        <div class="mdl-layout-spacer"></div>
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                  mdl-textfield--floating-label mdl-textfield--align-right">
+          <label class="mdl-button mdl-js-button mdl-button--icon" for="waterfall-exp">
+          <i class="material-icons">search</i>
+        </label>
+          <div class="mdl-textfield__expandable-holder">
+            <input class="mdl-textfield__input" type="text" name="sample" id="waterfall-exp">
+          </div>
+        </div>
+      </div>
+      <!-- Bottom row, not visible on scroll -->
+      <div class="mdl-layout__header-row">
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation -->
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="">Our Coffee House</a>
+          <a class="mdl-navigation__link" href="">Shop Online</a>
+        </nav>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">Title</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">About Us</a>
+        <a class="mdl-navigation__link" href="">Our Coffee</a>
+        <a class="mdl-navigation__link" href="">Location</a>
+        <a class="mdl-navigation__link" href="">Schedule</a>
+        <a class="mdl-navigation__link" href="">Subscribe</a>
+        <a class="mdl-navigation__link" href="">Instagram</a>
+      </nav>
+    </div>
+    <main class="mdl-layout__content">
+      <div class="page-content">
+        <!-- Your content goes here -->
+      </div>
+    </main>
+  </div>
+  <div class="container">
+    <div class="mdl-grid--no-spacing" id="main-layout-bkg">
+      <h1>Coffe House</h1>
+
+    </div>
+
+  </div>
+</body>
+
+</html>
