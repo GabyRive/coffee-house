@@ -4,4 +4,6 @@
 
 #main-layout-bkg {
   background: url('../assets/474103381.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
