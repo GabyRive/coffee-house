@@ -2,6 +2,20 @@
   padding-right: 0;
 }
 
+#about-us-grid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#main-layout {
+  margin: 0px;
+  background-color: rgba(255, 0, 0, 0.5);
+  padding-top: 300px;
+}
 #main-layout-bkg {
   background: url('../assets/474103381.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 300px;
+  margin: 0px;
 }
