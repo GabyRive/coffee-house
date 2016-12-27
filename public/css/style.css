@@ -7,13 +7,16 @@
   padding-right: 0px;
 }
 
+#brands-background {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
 #main-layout {
   margin: 0px;
   background-color: rgba(255, 0, 0, 0.5);
-  padding-top: 300px;
 }
 #main-layout-bkg {
-  background: url('../assets/474103381.jpg');
+  background: url('../assets/images/474103381.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
   padding-top: 300px;
